@@ -24,7 +24,7 @@ const authService = {
       }
 
       const isValidPassword = user.password === data.password;
-      console.log(user.password, data.password, "compare these two");
+      // console.log(user.password, data.password, "compare these two");
       if (!isValidPassword) {
         throw new Error("Invalid credentials");
       }
